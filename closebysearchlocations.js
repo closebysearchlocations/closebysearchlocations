@@ -1,6 +1,7 @@
 
       export function configCloseBySearchLocations(consecutiveSearchLocationsFn) {
         consecutiveSearchLocations = consecutiveSearchLocationsFn;
+        useOnlyConsecutiveLocations = false;
       }
 
       export function setUseOnlyConsecutiveLocations() {
